@@ -35,13 +35,15 @@ img {
 }
 
 .section {
-  padding: 120px 0;
+  /* padding: 120px 0; */
+  padding: 96px 0;
 }
 
 /* налаштування контейнера */
 
 .container {
-  max-width: 1158px;
+  /* max-width: 1158px; */
+  max-width: 320px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -240,27 +242,37 @@ button:focus {
 }
 
 /*------- секція  feature-------*/
-
+/* h3 */
 .feature-title {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  /* font-size: 20px;
+  line-height: 1.2; */
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  color: #2e2f42;
 }
+/* p */
 .feature-text {
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
 
+  font-weight: 500;
+}
+/* li */
 .feature-list-item {
-  width: calc((100% - 3 * 24px) / 4);
+  /* width: calc((100% - 3 * 24px) / 4); */
+  width: 100%;
 }
-
+/* div */
 .feature-border {
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -272,6 +284,12 @@ button:focus {
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
+}
+/* ul */
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
 }
 
 /* --------секція команда------- */
@@ -516,11 +534,6 @@ button:focus {
 }
 
 /* домашнє завдання 3 */
-
-.feature-list {
-  display: flex;
-  gap: 24px;
-}
 
 .team-list {
   display: flex;
