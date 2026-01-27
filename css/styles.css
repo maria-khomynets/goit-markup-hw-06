@@ -556,8 +556,6 @@ section {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
-    color: #2e2f42;
   }
 
   .feature-text {
@@ -585,4 +583,31 @@ section {
   .feature-title {
     text-align: left;
   }
+}
+
+/* section team */
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.section-title {
+}
+.team-list {
+}
+.team-card {
+}
+.container-team-section {
+}
+.team-name {
+}
+.team-position {
+}
+.social-list {
+}
+.social-list-item {
+}
+.social-list-link {
+}
+.social-list-icon {
 }
