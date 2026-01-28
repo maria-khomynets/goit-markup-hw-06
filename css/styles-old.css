@@ -464,11 +464,6 @@ button:focus {
   gap: 16px;
 }
 
-.footer-social-list {
-  display: flex;
-  gap: 16px;
-}
-
 .footer-lofo-wrap {
   display: flex;
   gap: 120px;

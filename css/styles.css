@@ -807,7 +807,7 @@ section {
 
 @media (min-width: 768px) {
   .footer {
-    padding: 96px;
+    padding: 96px 0;
   }
   .footer-flex {
     display: flex;
@@ -881,9 +881,4 @@ section {
     gap: 120px;
     flex-direction: row;
   }
-
-  /* .footer-lofo-wrap {
-    display: flex;
-    gap: 120px;
-  } */
 }
